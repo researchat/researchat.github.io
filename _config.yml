@@ -1,16 +1,20 @@
 actors:
-  alice:
+  coela:
     image_url: /images/actors/alice.png
-    name: alice
+    name: coela
     url: http://sns.example.com/alice
-  bob:
+  tadasu:
     image_url: /images/actors/bob.png
-    name: bob
+    name: tadasu
     url: http://sns.example.com/bob
-author: alice
-description: Example description
-description_long: Example long description
-email: info@example.com
+  sho-i:
+    image_url: /images/actors/bob.png
+    name: sho-i
+    url: http://sns.example.com/bob
+author: researchat
+description: Podcast by researchers.
+description_long: Podcast by researchers. Talking about science and technology.
+email: researchat@gmail.com
 exclude:
   - docker
   - docker-compose.yml
@@ -20,14 +24,14 @@ exclude:
   - README.md
   - vendor
 google_analytics:
-hashtag: examplehashtag
-itunes_podcast_url:
-keywords: comma,separated,keywords
+hashtag: researchat
+itunes_podcast_url:https://researchat.github.io/feed.xml
+keywords: research,science,technology,manga,games
 language: ja
 markdown: kramdown
 permalink: /episode/:title
 sass:
   sass_dir: css
 timezone: Asia/Tokyo
-title: Example title
-url: http://example.com
+title: Researchat.fm
+url: http://researchat.fm
