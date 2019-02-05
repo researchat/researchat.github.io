@@ -8,9 +8,8 @@ actors:
     name: tadasu
     url: http://sns.example.com/bob
   sho-i:
-    image_url: /images/actors/bob.png
-    name: sho-i
-    url: http://sns.example.com/bob
+    image_url: /images/actors/soh.png
+    name: soh
 author: researchat
 description: Podcast by researchers.
 description_long: Podcast by researchers. Talking about science and technology.
