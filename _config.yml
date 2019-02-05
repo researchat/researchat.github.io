@@ -10,8 +10,8 @@ actors:
     image_url: /images/actors/soh.png
     name: soh
 author: researchat
-description: Podcast by researchers.
-description_long: Podcast by researchers. Talking about science and technology.
+description: Podcast by researchers. Talking about Science, Technology, and Hobby.
+description_long: サイエンス、テクノロジー、趣味などの話題を中心に、研究者が話すポッドキャスト番組
 email: researchat@gmail.com
 exclude:
   - docker
