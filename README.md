@@ -1,3 +1,3 @@
-# Yattecast
+# Researchat.fm
 
-https://r7kamura.github.io/yattecast/
+https://researchat.fm
