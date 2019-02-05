@@ -4,9 +4,8 @@ actors:
     name: coela
     url: http://sns.example.com/alice
   tadasu:
-    image_url: /images/actors/bob.png
+    image_url: /images/actors/tadasu.jpg
     name: tadasu
-    url: http://sns.example.com/bob
   sho-i:
     image_url: /images/actors/soh.png
     name: soh
