@@ -23,7 +23,7 @@ exclude:
   - vendor
 google_analytics: UA-133831231-1
 hashtag: researchatfm
-itunes_podcast_url: https://researchat.github.io/feed.xml 
+itunes_podcast_url: https://researchat.fm/feed.xml 
 keywords: research,science,technology,manga,games
 language: ja
 markdown: kramdown
