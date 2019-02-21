@@ -2,6 +2,7 @@ actors:
   coela:
     image_url: /images/actors/coela_head.png
     name: coela
+    url: https://twitter.com/DRZ400SM
   tadasu:
     image_url: /images/actors/tadasu.jpg
     name: tadasu
