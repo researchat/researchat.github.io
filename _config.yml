@@ -2,10 +2,10 @@ actors:
   coela:
     image_url: /images/actors/coela_head.png
     name: coela
-    url: http://sns.example.com/alice
   tadasu:
     image_url: /images/actors/tadasu.jpg
     name: tadasu
+    url: https://snk-u.tumblr.com/
   soh:
     image_url: /images/actors/soh.png
     name: soh
