@@ -12,8 +12,8 @@ actors:
     name: soh
     url: https://twitter.com/soh__i
 author: researchat
-description: Podcast by researchers. Talking about Science, Technology, and Hobby.
-description_long: サイエンス、テクノロジー、趣味などの話題を中心に、研究者が話すポッドキャスト番組
+description: Podcast by researchers. Talking about Science, Biotechnology, Programming and Hobby.
+description_long: 生物学、バイオテクノロジー系の論文と技術紹介、プログラミングや趣味などの話題を中心に研究者が話すポッドキャスト番組
 email: researchat@gmail.com
 exclude:
   - docker
