@@ -10,6 +10,7 @@ actors:
   soh:
     image_url: /images/actors/soh.png
     name: soh
+    url: https://twitter.com/soh__i
 author: researchat
 description: Podcast by researchers. Talking about Science, Technology, and Hobby.
 description_long: サイエンス、テクノロジー、趣味などの話題を中心に、研究者が話すポッドキャスト番組
