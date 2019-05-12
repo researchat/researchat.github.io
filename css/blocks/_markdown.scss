@@ -11,8 +11,13 @@
   }
 
   a {
-    text-decoration: underline;
+      text-decoration: none; //added
   }
+
+  a:hover{
+      text-decoration: underline; //added
+  }
+  
 
   > code {
     background-color: rgba(0, 0, 0, 0.04);
@@ -149,6 +154,7 @@
   h2 {
     font-size: 1.3rem;
     margin-top: 50px;
+    font-weight: 600;
   }
 
   h3 {
@@ -177,13 +183,19 @@
 
   li {
     + li {
-      margin-top: 0.25rem;
+        margin-top: 0.25rem;
+        //text-align: justify; //added
     }
 
     > p {
       margin-top: 16px;
     }
   }
+
+  li {
+      margin-bottom: 0.6rem; //added
+  }
+  
 
   ol,
   ul {
