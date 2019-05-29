@@ -1,0 +1,30 @@
+
+textarea {
+    width: 100%;
+    background: transparent;
+    padding: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 2px #ccc solid;
+}
+
+.form__input {
+    width: 60%;
+    margin-bottom: 35px;
+}
+
+input[type=text] {
+    padding: 5px; 
+    border: 2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border: 1px #bbb solid;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
