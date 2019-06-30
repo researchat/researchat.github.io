@@ -6,9 +6,7 @@
     <atom:link href="{{ site.github.url }}/feed.xml" rel="self" type="application/rss+xml" />
     <link>{{ site.github.url }}/</link>
 		<title>{{ site.title }}</title>
-		<googleplay:author>{{ site.author }}</googleplay:author>
 		<description>{{ site.description | xml_escape }}</description>
-		<googleplay:image href="{{ site.github.url }}/images/logo.jpg"/>
     <media:keywords>{{ site.keywords }}</media:keywords>
     <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category>
     <language>{{ site.language }}</language>
