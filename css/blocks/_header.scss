@@ -1,3 +1,63 @@
+.dropbtn {
+    background-color: rgba(37, 130, 230, 0.8);
+    padding: 10px 8px 10px 8px;
+    color: white;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+.dropbtn a {
+    color: white;
+}
+        
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 15px 0px 0px 0px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(249, 249, 249, 1.0);
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+
+}
+
+.dropdown-content a {
+    font-size: 14px;
+    color: black;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    display: block;  
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(241, 241, 241, 1.0);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgba(31, 109, 194, 0.8);
+}
+
+
 .header {
   background-image: url(../images/artwork.jpg);
   background-size: cover;
