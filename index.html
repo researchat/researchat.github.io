@@ -5,6 +5,8 @@ layout: default
 <div class="container">
   <div class="card">
     {% for post in site.posts %}
+    {% unless post.categories contains 'blog' %}
+    
       <article class="list-group-element">
         <h1 class="list-group-element-heading">
           <a href="{{ post.url | prepend:site.github.url }}">{{ post.title | escape }}</a>
@@ -22,6 +24,8 @@ layout: default
           {% endfor %}
         </div>
       </article>
-    {% endfor %}
+      {% endunless %}
+      {% endfor %}
   </div>
 </div>
+
