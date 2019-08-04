@@ -20,6 +20,9 @@
     </itunes:owner>
     <itunes:image href="{{ site.github.url }}/images/itunes_artwork.jpg" />
     <itunes:category text="Technology"/>
+    <itunes:category text="Science"> 
+      <itunes:category text="Life Sciences" />
+    </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     {% for post in site.posts %}
     {% unless post.categories contains 'blog' %} <!-- publish only podcast posts, not blog-->
