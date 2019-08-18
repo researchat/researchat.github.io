@@ -4,7 +4,7 @@
       <div class="row">
         <section class="column-small-4 footer-sections-element">
           <h1 class="footer-sections-element-heading">
-            {{ site.title }} とは
+            {{ site.title }}
           </h1>
           <div class="footer-sections-element-description">
             {{ site.title }} は、{{ site.description_long }}
@@ -15,7 +15,7 @@
             #{{ site.hashtag }}
           </h1>
           <div class="footer-sections-element-description">
-            {{ site.title }} への感想や質問などは、Twitterでハッシュタグ <a href="https://twitter.com/search?q=%23{{ site.hashtag }}" target="_blank">#{{ site.hashtag }}</a> または、<a href="https://researchat.fm/form.html">お問い合わせ</a>からお便りをお送りください。
+            {{ site.title }} への感想や質問などは、Twitterのハッシュタグ <a href="https://twitter.com/search?q=%23{{ site.hashtag }}" target="_blank">#{{ site.hashtag }}</a> または、<a href="https://researchat.fm/form.html">お問い合わせ</a>からお便りをお送りください。
           </div>
           <div class="footer-twitter">
             <a class="twitter-share-button" href="https://twitter.com/intent/tweet?hashtags={{ site.hashtag }}&url={{ site.github.url }}">
@@ -26,10 +26,10 @@
         </section>
         <section class="column-small-4 footer-sections-element">
           <h1 class="footer-sections-element-heading">
-            購読
+            Subscription
           </h1>
           <div class="footer-sections-element-description">
-            新しいエピソードの配信を購読できます。
+            新しいエピソードの配信を以下の方法で購読できます。
           </div>
           <ul>
             {% if site.itunes_podcast_url %}
@@ -68,4 +68,5 @@
     ga('send', 'pageview');
   </script>
 {% endif %}
+
 
