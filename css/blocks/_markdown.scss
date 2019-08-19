@@ -110,6 +110,10 @@
     margin-bottom: 16px;
   }
 
+  li {
+      font-weight: 200;
+  }
+
   blockquote {
     border-left: 0.25em solid #ddd;
     color: #777;
@@ -148,13 +152,13 @@
   }
 
   h1 {
-    font-size: 2rem;
+      font-size: 2rem;
   }
 
   h2 {
     font-size: 1.3rem;
     margin-top: 50px;
-    font-weight: 600;
+    font-weight: 200;
   }
 
   h3 {

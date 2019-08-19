@@ -8,8 +8,14 @@
   position: relative;
 
   &-heading {
-    font-size: 1.5rem;
+      font-size: 1.5rem;
+      font-weight: 200;
   }
+
+  &-footer {
+      font-weight: 200;
+  }
+
 
   &-images {
     margin-top: 8px;
@@ -22,4 +28,9 @@
       }
     }
   }
+}
+
+p
+{
+    font-weight: 200;
 }
