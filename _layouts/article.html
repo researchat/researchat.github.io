@@ -18,15 +18,9 @@
           </header>
           <section class="card-body markdown">
             <p>
-              <audio
-                class="mejs-player"
-                controls=""
-                data-mejsoptions='{"alwaysShowControls": true, "alwaysShowHours": true, "enableAutosize": true, "features": ["playpause", "progress", "current", "duration", "volume", "speed"]}'
-                preload="auto"
-                src="{{ page.audio_file_path | prepend:site.github.url }}"
-                width="100%"
-              >
-              </audio>
+              <audio 
+                src="{{ page.audio_file_path | prepend:site.github.url }}" type="audio/mp3" preload="auto" width="100%" controls
+                >
             </p>
             <p class="text-right">
               <small>
@@ -65,4 +59,5 @@
     {% include footer.html %}
   </body>
 </html>
+
 
