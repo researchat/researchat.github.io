@@ -19,6 +19,10 @@ actors:
     image_url: /images/actors/dessan.jpg
     name: dessan
     url: https://twitter.com/Dr_Strangedeath
+  kotone:
+    image_url: /images/actors/kotone.png
+    name: kotone
+    url: https://twitter.com/kotone_nyt
 author: researchat
 description: Researchat.fmは、バイオロジーの研究者3人がアツいと感じていることを自由に話すポッドキャスト番組です。
 description_long: バイオロジーの研究者3人によるポッドキャスト番組です。東京-東海岸-山形をつなぎ、その時々アツいと感じたテーマについて研究・論文・技術・ゲーム・漫画など分野を問わず自由に話しています。
