@@ -34,25 +34,25 @@
           <ul>
             {% if site.itunes_podcast_url %}
               <li>
-                <i class="fas fa-podcast"></i><a href="{{ site.itunes_podcast_url }}" target="_blank">Apple Podcastsで購読</a>
+                <i class="fas fa-podcast"></i>&nbsp;<a href="{{ site.itunes_podcast_url }}" target="_blank">Apple Podcastsで購読</a>
               </li>
             {% endif %}
             <li>
-              <i class="fab fa-android"></i><a href="http://subscribeonandroid.com/{{ site.github.url | remove: "https://" | remove: "http://" }}/feed.xml" target="_blank">Androidで購読</a>
+              <i class="fab fa-android"></i>&nbsp;<a href="http://subscribeonandroid.com/{{ site.github.url | remove: "https://" | remove: "http://" }}/feed.xml" target="_blank">Androidで購読</a>
             </li>
             <li>
-              <i class="fab fa-spotify"></i><a href="https://open.spotify.com/show/6pqHenuqtkEpnFg9tShg4J" target="_blank">Spotifyで購読</a>
-            </li>
- 
-            <li>
-              <i class="fab fa-google"></i><a href="https://podcasts.google.com/?feed=aHR0cHM6Ly9yZXNlYXJjaGF0LmZtL2ZlZWQueG1s" target="_blank">Google Podcastsで購読</a>
+              <i class="fab fa-spotify"></i>&nbsp;<a href="https://open.spotify.com/show/6pqHenuqtkEpnFg9tShg4J" target="_blank">Spotifyで購読</a>
             </li>
  
             <li>
-              <i class="far fa-bell"></i><a href="https://push.dog/subscribe?url={{ site.github.url }}/feed.xml" target="_blank">Pushdogで購読</a>
+              <i class="fab fa-google"></i>&nbsp;<a href="https://podcasts.google.com/?feed=aHR0cHM6Ly9yZXNlYXJjaGF0LmZtL2ZlZWQueG1s" target="_blank">Google Podcastsで購読</a>
+            </li>
+ 
+            <li>
+              <i class="far fa-bell"></i>&nbsp;<a href="https://push.dog/subscribe?url={{ site.github.url }}/feed.xml" target="_blank">Pushdogで購読</a>
             </li>
             <li>
-              <i class="fas fa-rss"></i><a href="{{ site.github.url }}/feed.xml" target="_blank">RSSで購読</a>
+              <i class="fas fa-rss"></i>&nbsp;<a href="{{ site.github.url }}/feed.xml" target="_blank">RSSで購読</a>
             </li>
           </ul>
         </section>
