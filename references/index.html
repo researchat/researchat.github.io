@@ -1,0 +1,21 @@
+---
+layout: default
+title: Researchat's References
+category: references
+permalink: /references/
+---
+
+<div class="container">
+  <div class="card-body markdown">
+    <h2>Researchat's References</h2>
+    <p>Researchatのポッドキャストで参照・紹介した漫画・書籍・論文などをこちらのページにまとめました（随時更新）</p>
+    {% for post in site.posts %}
+    {% if post.categories contains 'references' %}
+    <div class="post">
+      <h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      {{ post.date | date: "%Y年%m月%d日" }}
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>

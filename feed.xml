@@ -26,6 +26,7 @@
     <itunes:explicit>no</itunes:explicit>
     {% for post in site.posts %}
     {% unless post.categories contains 'blog' %} <!-- publish only podcast posts, not blog-->
+    {% unless post.categories contains 'references' %} <!-- publish only podcast posts, not references-->
     <item>
       <title>{{ post.title | xml_escape }}</title>
       <link>{{ site.github.url }}{{ post.url }}</link>
@@ -39,6 +40,7 @@
       <itunes:explicit>no</itunes:explicit>
       <media:thumbnail url="{{ site.github.url }}/images/itunes_artwork_240.jpg"/>
     </item>
+    {% endunless %}
     {% endunless %}
     {% endfor %}
   </channel>
