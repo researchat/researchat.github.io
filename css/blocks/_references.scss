@@ -1,10 +1,11 @@
 .references{
 	img{
-		height:120px;
-		width:auto;
+		width: auto;
+		height: auto;
+		min-width: 60px;
+		max-width: 90px; 
 	}
-	table {
-		min-width:500px;
+	td {
 		vertical-align: middle;
 	}
 
