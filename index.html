@@ -6,6 +6,7 @@ layout: default
   <div class="card">
     {% for post in site.posts %}
     {% unless post.categories contains 'blog' %}
+    {% unless post.categories contains 'references' %}
     <article class="list-group-element">
       <h1 class="list-group-element-heading">
         <a href="{{ post.url | prepend:site.github.url }}">{{ post.title | escape }}</a>
@@ -23,6 +24,7 @@ layout: default
         {% endfor %}
       </div>
     </article>
+    {% endunless %}
     {% endunless %}
     {% endfor %}
   </div>
