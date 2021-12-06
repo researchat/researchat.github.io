@@ -36,7 +36,7 @@ actors:
     name: pome
     url: https://researchat.fm/
   yamaken:
-    image_url: /images/actors/yamaken_image.jpg
+    image_url: /images/actors/yamaken.jpg
     name: yamaken
     url: https://twitter.com/yamaken37
 author: researchat
