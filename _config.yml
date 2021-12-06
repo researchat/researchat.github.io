@@ -35,6 +35,10 @@ actors:
     image_url: /images/actors/pome_image.jpg
     name: pome
     url: https://researchat.fm/
+  yamaken:
+    image_url: /images/actors/yamaken_image.jpg
+    name: yamaken
+    url: https://twitter.com/yamaken37
 author: researchat
 description: Researchat.fmは、バイオロジーの研究者3人がアツいと感じていることを自由に話すポッドキャスト番組です。
 description_long: バイオロジーの研究者3人によるポッドキャスト番組です。Vancouver-Boston-山形をつなぎ、その時々アツいと感じたテーマについて研究・論文・技術・ゲーム・漫画など分野を問わず自由に話しています。
