@@ -19,6 +19,9 @@
           <section class="card-body markdown">
             <p>
               <audio 
+                {% if post.audio_file_path contains 'libsyn' %}
+                src="{{ page.audio_file_path }}" type="audio/mp3" preload="auto" width="100%" controls
+                {% else %}
                 src="{{ page.audio_file_path | prepend:site.github.url }}" type="audio/mp3" preload="auto" width="100%" controls
                 >
             </p>
