@@ -34,11 +34,11 @@
       <description>{{ post.description }}{{ post.content | xml_escape }}</description>
       <guid isPermaLink="true">{{ site.github.url }}{{ post.url }}</guid>
       {% if post.audio_file_path contains 'libsyn' %}
-      <enclosure url="{{ post.audio_file_path }}" length="{{ post.audio_file_size }}" type="audio/mp3"/>
-      {% elsif if post.audio_file_path contains 'dropbox' %}
-      <enclosure url="{{ post.audio_file_path }}" length="{{ post.audio_file_size }}" type="audio/mp3"/>
+        <enclosure url="{{ post.audio_file_path }}" length="{{ post.audio_file_size }}" type="audio/mp3"/>
+      {% elsif post.audio_file_path contains 'dropbox' %}
+        <enclosure url="{{ post.audio_file_path }}" length="{{ post.audio_file_size }}" type="audio/mp3"/>
       {% else %}
-      <enclosure url="{{ site.github.url }}{{ post.audio_file_path }}" length="{{ post.audio_file_size }}" type="audio/mp3"/>
+        <enclosure url="{{ site.github.url }}{{ post.audio_file_path }}" length="{{ post.audio_file_size }}" type="audio/mp3"/>
       {% endif %}   
       <itunes:author>{{ site.author }}</itunes:author>
       <itunes:subtitle>{{ post.description }}</itunes:subtitle>
