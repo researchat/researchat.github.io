@@ -12,7 +12,7 @@ layout: default
         <a href="{{ post.url | prepend:site.github.url }}">{{ post.title | escape }}</a>
       </h1>
         <footer class="list-group-element-footer">
-          {{ post.date | date: "%Y/%m/%d" }}, {{ post.duration }}
+          {{ post.date | date: "%b %d, %Y" }}. {{ post.duration }}
         </footer>
       <p>
         {{ post.description }}

@@ -13,7 +13,15 @@
               </a>
             </h1>
             <div class="article-header-note">
-              {{ page.date | date: "%Y/%m/%d" }}
+            <p>
+              Published on {{ page.date | date: "%b %d, %Y" }}
+            </p>
+              {% if page.rec_date %}
+              Recorded on {{ page.rec_date | date: "%b %d, %Y" }} 
+              {% endif %}
+              {% if page.edit_by %}
+              and edited by {{ page.edit_by }}
+              {% endif %}
             </div>
           </header>
           <section class="card-body markdown">
