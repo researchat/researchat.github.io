@@ -51,6 +51,14 @@ actors:
     image_url: /images/actors/maz.jpg
     name: maz
     url: https://twitter.com/dynamicsoar
+  ayaka:
+    image_url: /images/actors/ayaka.png
+    name: ayaka
+    url: https://twitter.com/kayautoka
+  nami:
+    image_url: /images/actors/
+    name: nami
+    url: https://twitter.com/
 author: researchat
 description: Researchat.fmは、バイオロジーの研究者3人がアツいと感じていることを自由に話すポッドキャスト番組です。
 description_long: バイオロジーの研究者3人によるポッドキャスト番組です。Vancouver-Boston-山形をつなぎ、その時々アツいと感じたテーマについて研究・論文・技術・ゲーム・漫画など分野を問わず自由に話しています。
