@@ -61,7 +61,7 @@ actors:
     url: https://researchat.fm/
   kagaya:
     image_url: /images/actors/kagaya.jpg
-    name: nami
+    name: kagaya
     url: https://twitter.com/katzkagaya
 author: researchat
 description: Researchat.fmは、バイオロジーの研究者3人がアツいと感じていることを自由に話すポッドキャスト番組です。
